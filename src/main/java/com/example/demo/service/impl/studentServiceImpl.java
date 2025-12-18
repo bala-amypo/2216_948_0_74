@@ -9,7 +9,7 @@ import com.example.demo.repository.*;
 import com.example.demo.service.*;
 
 @Service
-public class studentServiceImpl implements studentService{
+public class studentServiceImpl implements StudentService{
     
     @Autowired
     studentRepo repo;
