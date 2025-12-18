@@ -1,18 +1,17 @@
-studentService.java
 package com.example.demo.service;
 
 import java.util.List;
-import com.example.demo.entity.studentEntity;
+import com.example.demo.entity.StudentEntity;
 
-public interface studentService {
+public interface StudentService {
 
-    List<studentEntity> getAll();
+    List<StudentEntity> getAll();
 
-    studentEntity addStudent(studentEntity student);
+    StudentEntity addStudent(StudentEntity student);
 
-    studentEntity getById(Long id);
+    StudentEntity getById(Long id);
 
-    String updateStudent(Long id, studentEntity newstu);
+    String updateStudent(Long id, StudentEntity newStu);
 
-    String deleteStudent(long id);
+    String deleteStudent(Long id);
 }
